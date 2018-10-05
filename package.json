@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-write-to-syslog",
+  "version": "1.0.0",
+  "description": "Write to syslog via unix socket or UDP",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh test.sh --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funduck/nodejs-syslog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "syslog"
+  ],
+  "author": "oomilekh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funduck/nodejs-syslog/issues"
+  },
+  "homepage": "https://github.com/funduck/nodejs-syslog#readme",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "unix-dgram": "^2.0.2"
+  }
+}
